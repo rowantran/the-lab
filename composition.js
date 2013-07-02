@@ -15,7 +15,7 @@ var displayComposition = function(molecule) {
     $("#image").append("<img src='oxygen.png'>");
   } else {
     var text = " <b>Deoxyribonucleic acid</b>";
-    $("#image").append("<img src='dna.png'>")
+    $("#image").append("<img src='dna.png'>");
   }
   $("#currentview").append(text);
 };
