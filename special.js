@@ -15,8 +15,7 @@ var startSim2 = function() {
 		stage = 2;
 	} else if (stage == 2) {
 		$("body").text("");
-		$("head").append("<style>body{background-color: #000000; color: #cc5079;}</style>");
+		$("head").append("<style>body{background-color: #000000; color: #cc5079;} .wiggle { font-weight: bold; margin: 0 auto; font-size: large;}</style>");
 		$("body").append("<h1 class='wiggle'>HAPPY BIRTHDAY SIS :)</h1>");
 		$(".wiggle").ClassyWiggle();
 	}
-};
