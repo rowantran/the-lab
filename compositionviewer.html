@@ -1,0 +1,40 @@
+<html>
+ <head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>View the chemical composition of molecules!</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script><script src="composition.js"></script> </head>
+ <body>
+  <div class="logo-wrapper">
+   <div class="logo">
+    <a href="index.html"><img src="logo.png"></a>
+   </div>
+  </div>
+  <div class="navbar-wrapper">
+    <div class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="selected"><a href="compositionviewer.html">Composition Viewer</a></li>
+        <li><a href="atomsplit.html">Atom Splitter</a></li>
+        <li><i><a href="special.html">Surprise</a></i></li>
+      </ul>
+    </div>
+  </div>
+  <span id="currentview">Currently viewing:</span>
+  <div class="sidebar">
+   <ul>
+    <li>
+     <a href="javascript:void(0)" onclick="displayComposition('salt')">Table salt</a></li>
+    <li>
+     <a href="javascript:void(0)" onclick="displayComposition('water')">Water</a></li>
+    <li>
+     <a href="javascript:void(0)" onclick="displayComposition('co2')">Carbon dioxide</a></li>
+    <li>
+     <a href="javascript:void(0)" onclick="displayComposition('oxygen')">Oxygen</a></li>
+    <li>
+     <a href="javascript:void(0)" onclick="displayComposition('dna')">DNA</a></li>
+   </ul>
+  </div>
+  <img id="image" src="blank.gif">
+ </body>
+</html>
